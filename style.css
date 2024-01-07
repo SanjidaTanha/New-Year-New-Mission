@@ -4,7 +4,7 @@
     font-family: 'Merriweather', serif;
 
 }
-.padding{
+.b-margin{
     margin-left: 140px;
     margin-right: 140px;
 }
@@ -70,4 +70,59 @@
     font-style: normal;
     font-weight: 700;
 }
+.discount-pic {
+    width: 702px;
+    height: 400px;
+}
+/* ------------------------------------------------------------------ */
 
+
+/* welcoming section styles */
+.welcome {
+    margin-top: 120px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('./resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 445px;
+    background-size: contain;
+    display: flex;
+   
+}
+.welcome-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height:  137.5%;
+    letter-spacing: 2.04px;
+    padding-top: 126px;
+    padding-left:126px ;
+    margin-bottom: 0px;
+}
+.welcome-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 166.667% ;
+    margin-top: 24px;
+    padding-left: 126px;
+}
+.welcome-button {
+    padding-left: 126px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background: transparent;
+    border: 0;
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.pic-2024 {
+    height: 350px;
+    padding-top: 68px;
+    padding-right: 138px;
+}
