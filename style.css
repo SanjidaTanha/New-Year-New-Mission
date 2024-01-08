@@ -288,3 +288,45 @@
     border-style: none;
     margin-left: 0px;
 }
+/* ---------------------------------------------------------------------- */
+
+
+/* footer related styles */
+footer {
+    margin-top: 120px;
+    background-color:black;
+    padding: 0px 140px;
+}
+.address-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top:120px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 166.667%;
+}
+.contact > ul {
+    list-style: none;
+}
+hr {
+    border-color: rgb(59, 76, 76);
+}
+.social-icons-container {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.copyright-container {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 166.667%;
+    padding-bottom: 120px;
+}
+
